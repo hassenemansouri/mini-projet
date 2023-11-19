@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Mansouri Hassene</title>
+    
+</head>
+<body>
+    <header>
+        <a href="index.html">Retour à la page d'acceuil</a>
+        <a href="education.html">education</a>
+        <a href="experiences.html">experiences</a>
+    </header>
+
+    <main>
+        <!-- Contact Information -->
+        <section>
+            <h1>Contact</h1>
+            <p>Email: hassene.mansouri@esprit.tn</p>
+            <p>Phone: 123-456-7890</p>
+            <!-- Add other contact information or a contact form here -->
+            <h2>Contactez-nous</h2>
+
+            <form action="traitement_formulaire.php" method="post">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required><br>
+        
+                <label for="email">E-mail :</label>
+                <input type="email" id="email" name="email" required><br>
+        
+        
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+        
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mansouri Hassene</p>
+    </footer>
+</body>
+</html>
